@@ -10,7 +10,7 @@ console.log(handleListToMap());
 console.log('-----------------------------------\n');
 
 
-//
+// 리스트 내 객체 특정 요소만 추출
 const handleExtractElement = () => {
     return memberList.map(element => ({memberId : element.memberId, memberName : element.memberName}))
 }
